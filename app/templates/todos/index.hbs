@@ -1,0 +1,10 @@
+<h2>List of todos</h2>
+
+<ul>
+{{#each}}
+  <li>{{this}}!</li>
+{{/each}}
+</ul>
+{{outlet}}
+
+{{#link-to 'todos.new'}}New Todo{{/link-to}}

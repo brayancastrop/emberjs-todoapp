@@ -1,0 +1,13 @@
+<h2>New Todo</h2>
+
+<form {{action "save" on="submit"}}>
+  <fieldset>
+    <label for="name"></label>
+    {{input value=name id='name' class="form-control"}}
+  </fieldset>
+  <fieldset>
+    <label for="description"></label>
+    {{input value=description id='description' class="form-control"}}
+  </fieldset>
+  <button type="submit">Save</button>
+</form>
